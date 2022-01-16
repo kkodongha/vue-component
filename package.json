@@ -1,0 +1,55 @@
+{
+  "name": "vue-component",
+  "version": "0.1.0",
+  "description": "vue-component",
+  "main": "index.js",
+  "scripts": {
+    "dev": "cross-env NODE_ENV=development webpack serve --open http://127.0.0.1:3500/ --mode=development --port 3500",
+    "build:production": "cross-env NODE_ENV=production webpack --progress --mode=production"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kkodongha/vue-component.git"
+  },
+  "author": "ko dongha",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kkodongha/vue-component/issues"
+  },
+  "homepage": "https://github.com/kkodongha/vue-component#readme",
+  "dependencies": {
+    "core-js": "^3.20.3",
+    "vue": "^2.6.14"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.16.7",
+    "@babel/plugin-proposal-class-properties": "^7.16.7",
+    "@babel/plugin-transform-classes": "^7.16.7",
+    "@babel/plugin-transform-runtime": "^7.16.8",
+    "@babel/plugin-transform-shorthand-properties": "^7.16.7",
+    "@babel/preset-env": "^7.16.8",
+    "@babel/runtime-corejs3": "^7.16.8",
+    "babel-eslint": "^10.1.0",
+    "babel-loader": "^8.2.3",
+    "babel-loader-exclude-node-modules-except": "^1.2.1",
+    "clean-webpack-plugin": "^4.0.0",
+    "cross-env": "^7.0.3",
+    "css-loader": "^6.5.1",
+    "eslint": "^8.7.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-import": "^2.25.4",
+    "eslint-plugin-prettier": "^4.0.0",
+    "eslint-plugin-vue": "^8.3.0",
+    "file-loader": "^6.2.0",
+    "html-webpack-plugin": "^5.5.0",
+    "sass": "^1.48.0",
+    "sass-loader": "^12.4.0",
+    "style-loader": "^3.3.1",
+    "terser-webpack-plugin": "^5.3.0",
+    "vue-loader": "^15.9.8",
+    "vue-template-compiler": "^2.6.14",
+    "webpack": "^5.66.0",
+    "webpack-cli": "^4.9.1",
+    "webpack-dev-server": "^4.7.3"
+  }
+}

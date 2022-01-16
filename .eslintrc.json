@@ -1,0 +1,17 @@
+{
+  "env": {
+    "es6": true,
+    "node": true
+  },
+  "parserOptions": {
+    "parser": "babel-eslint"
+  },
+  "extends": ["plugin:vue/essential", "prettier/prettier", "prettier/vue"],
+  "plugins": ["prettier", "vue"],
+  "rules": {
+    "prettier/prettier": ["error", { "endOfLine": "auto" }]
+  },
+  "globals": {
+    "$": true
+  }
+}
